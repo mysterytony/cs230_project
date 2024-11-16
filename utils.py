@@ -1,3 +1,5 @@
+import plotly.express as px
+
 def imshow(tensor, **kwargs):
     px.imshow(
         utils.to_numpy(tensor),
